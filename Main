@@ -1,15 +1,8 @@
 ----------- // boware.cc // ----------- 
 ---------------------------------------
 repeat wait() until game:IsLoaded()
-        local sound = Instance.new("Sound")
-        sound.SoundId = "rbxassetid://3320590485"
-        sound.Parent = game:GetService("SoundService")
-        sound:Play()
 wait(0.9)
-        local sound = Instance.new("Sound")
-        sound.SoundId = "rbxassetid://11121515930"
-        sound.Parent = game:GetService("SoundService")
-        sound:Play()
+local sound = Instance.new("Sound") sound.SoundId = "rbxassetid://3320590485" sound.Parent = game:GetService("SoundService") sound:Play()
 ----------- // Port-Maersk // -----------
 if game.PlaceId == 2007375127 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/luasight/boware.cc-Port-Maersk/main/Main"))()
