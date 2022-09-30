@@ -1,13 +1,13 @@
------ // boware.cc // -----
+----------- // boware.cc // ----------- 
+---------------------------------------
 repeat wait() until game:IsLoaded()
-wait(0.3)
------ // Port-Maersk // -----
+----------- // Port-Maersk // -----------
 if game.PlaceId == 2007375127 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/luasight/boware.cc-0.2.0-Port-Maersk/main/Main"))()
------ // Chicago 1949 // -----
+----------- //Chicago 1949 // -----------
 elseif game.PlaceId == 3449573444 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/luasight/boware.cc-0.1.0-Chicago-1949/main/Main"))()
------ // Universal // -----
+----------- // Universal // -----------
 else return
     loadstring(game:HttpGet("https://raw.githubusercontent.com/luasight/boware.cc-0.0.0-Game-Name/main/Game%20Name"))()
 end
