@@ -9,5 +9,5 @@ elseif game.PlaceId == 3449573444 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/luasight/boware.cc-0.1.0-Chicago-1949/main/Main"))()
 ----------- // Universal // -----------
 else return
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/luasight/boware.cc-0.0.0-Game-Name/main/Game%20Name"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/luasight/boware.cc-Blank/main/Main"))()
 end
