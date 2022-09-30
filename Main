@@ -12,7 +12,7 @@ wait(1.1)
         sound:Play()
 ----------- // Port-Maersk // -----------
 if game.PlaceId == 2007375127 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/luasight/boware.cc-0.2.0-Port-Maersk/main/Main"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/luasight/boware.cc-Port-Maersk/main/Main"))()
 ----------- //Chicago 1949 // -----------
 elseif game.PlaceId == 3449573444 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/luasight/boware.cc-Chicago-1949/main/Main"))()
