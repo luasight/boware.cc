@@ -5,9 +5,9 @@ repeat wait() until game:IsLoaded()
         sound.SoundId = "rbxassetid://3320590485"
         sound.Parent = game:GetService("SoundService")
         sound:Play()
-wait(1.1)
+wait(0.9)
         local sound = Instance.new("Sound")
-        sound.SoundId = "rbxassetid://3320590485"
+        sound.SoundId = "rbxassetid://11121515930"
         sound.Parent = game:GetService("SoundService")
         sound:Play()
 ----------- // Port-Maersk // -----------
